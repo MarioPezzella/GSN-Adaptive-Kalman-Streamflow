@@ -1,0 +1,17 @@
+# Normalize line endings on commit, check out native on each platform.
+# The source files were authored on Windows (CRLF); this keeps diffs clean
+# without forcing a conversion on the author's working copy.
+* text=auto
+
+# MATLAB sources
+*.m text diff=matlab
+
+# Experimental data: keep byte-for-byte identical, never touch line endings
+Dati/*.txt -text
+
+# Binary
+*.mat binary
+*.fig binary
+*.docx binary
+*.png binary
+*.pdf binary

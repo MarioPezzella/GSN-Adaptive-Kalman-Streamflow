@@ -1,0 +1,45 @@
+# =========================================================================
+# Outputs of the driver script
+# =========================================================================
+# Figures and LaTeX tables are regenerated at every run of
+# Main_GSN_ADPT_Kalman_Camastra.m, so the output folder is not tracked.
+figures_out/
+
+# Figures and workspaces exported by hand
+*.png
+*.pdf
+*.eps
+*.fig
+*.svg
+*.tif
+*.mat
+
+# =========================================================================
+# MATLAB working files
+# =========================================================================
+*.asv
+*.autosave
+*.m~
+slprj/
+sccprj/
+codegen/
+*.mex*
+*.mlappinstall
+*.mltbx
+
+# =========================================================================
+# Manuscript drafts (not for public distribution)
+# =========================================================================
+*.docx
+*.doc
+*.tex
+*.bib
+*.bst
+*.cls
+
+# =========================================================================
+# Operating system
+# =========================================================================
+.DS_Store
+Thumbs.db
+desktop.ini

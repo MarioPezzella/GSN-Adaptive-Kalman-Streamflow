@@ -1,0 +1,115 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the associated paper."
+title: "GSN-Adaptive-Kalman-Streamflow: adaptive Kalman filtering for Generalized Shot Noise streamflow models, with application to the Camastra basin"
+abstract: >-
+  MATLAB implementation of an adaptive Kalman filter for Generalized Shot
+  Noise streamflow models, with recursive Sage-Husa estimation of the
+  measurement and process-noise covariances. The process-noise update
+  includes a correction for the covariance propagated through the state
+  dynamics, NIS-normalized forgetting weights, a bootstrap initialization of
+  the measurement-noise variance and a prediction-only treatment of missing
+  observations. The code applies the filter to 37 years of daily inflow
+  observations of the Camastra reservoir (southern Italy) under two
+  rainfall configurations, a synthetic effective-rainfall realization used
+  as deterministic input and rainfall absorbed as adaptive process noise,
+  and evaluates accuracy, consistency and predictive-band coverage.
+type: software
+version: "1.0"
+date-released: "2026-09-23"
+license: GPL-3.0-or-later
+repository-code: "https://github.com/MarioPezzella/GSN-Adaptive-Kalman-Streamflow"
+keywords:
+  - adaptive Kalman filter
+  - Sage-Husa algorithm
+  - generalized shot noise model
+  - streamflow estimation
+  - data assimilation
+  - hydrology
+  - reservoir inflow
+  - MATLAB
+authors:
+  - family-names: Pezzella
+    given-names: Mario
+    email: mario.pezzella@unina.it
+    affiliation: >-
+      Department of Mathematics and Applications "Renato Caccioppoli",
+      University of Naples Federico II, Naples, Italy; and Institute for
+      Applied Mathematics "Mauro Picone" (IAC), National Research Council
+      of Italy, Naples, Italy
+  - family-names: Cimorelli
+    given-names: Luigi
+    affiliation: >-
+      Department of Civil, Architectural and Environmental Engineering,
+      University of Naples Federico II, Naples, Italy
+  - family-names: D'Amore
+    given-names: Luisa
+    affiliation: >-
+      Department of Mathematics and Applications "Renato Caccioppoli",
+      University of Naples Federico II, Naples, Italy
+  - family-names: Cuomo
+    given-names: Salvatore
+    affiliation: >-
+      Department of Mathematics and Applications "Renato Caccioppoli",
+      University of Naples Federico II, Naples, Italy
+preferred-citation:
+  type: article
+  title: >-
+    Adaptive Kalman Filtering for Streamflow Models with Application to the
+    Camastra Basin
+  year: 2026
+  status: submitted
+  authors:
+    - family-names: Pezzella
+      given-names: Mario
+    - family-names: Cimorelli
+      given-names: Luigi
+    - family-names: D'Amore
+      given-names: Luisa
+    - family-names: Cuomo
+      given-names: Salvatore
+references:
+  - type: article
+    title: >-
+      Sedimentation in Reservoirs: Evaluation of Return Periods Related to
+      Operational Failures of Water Supply Reservoirs with Monte Carlo
+      Simulation
+    authors:
+      - family-names: Cimorelli
+        given-names: L.
+      - family-names: Covelli
+        given-names: C.
+      - family-names: De Vincenzo
+        given-names: A.
+      - family-names: Pianese
+        given-names: D.
+      - family-names: Molino
+        given-names: B.
+    journal: "Journal of Water Resources Planning and Management"
+    volume: 147
+    issue: 1
+    start: "04020096"
+    year: 2021
+    doi: "10.1061/(ASCE)WR.1943-5452.0001307"
+  - type: article
+    title: >-
+      Shot noise modeling of daily streamflows: A hybrid spectral- and
+      time-domain calibration approach
+    authors:
+      - family-names: Morlando
+        given-names: F.
+      - family-names: Cimorelli
+        given-names: L.
+      - family-names: Cozzolino
+        given-names: L.
+      - family-names: Mancini
+        given-names: G.
+      - family-names: Pianese
+        given-names: D.
+      - family-names: Garofalo
+        given-names: F.
+    journal: "Water Resources Research"
+    volume: 52
+    start: 4730
+    end: 4744
+    year: 2016
+    doi: "10.1002/2015WR017613"
